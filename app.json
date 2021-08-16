@@ -1,14 +1,7 @@
 {
   "expo": {
-    "name": "Dictionary App",
-    "slug": "dictionary-app-stage-2",
-    "privacy": "public",
-    "sdkVersion": "36.0.0",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
+    "name": "DictionaryApp_OnlineVersion",
+    "slug": "DictionaryApp_OnlineVersion",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -26,8 +19,14 @@
     "ios": {
       "supportsTablet": true
     },
-      "android": {
-      "package": "com.apk.pocketdictionarytechgunk"
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
     }
   }
 }

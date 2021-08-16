@@ -1,6 +1,4 @@
 {
-  "name": "pocket-dictionary-app",
-  "icons": { "16": "icon.png"},
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
@@ -15,12 +13,11 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz",
-    "react-native-web": "~0.13.12",
-    "@expo/vector-icons": "^12.0.0",
-    "react-native-elements": "2.2.1"
+    "react-native-elements": "^3.1.0",
+    "react-native-web": "~0.13.12"
   },
   "devDependencies": {
-    "@babel/core": "^7.9.0"
+    "@babel/core": "~7.9.0"
   },
   "private": true
 }
