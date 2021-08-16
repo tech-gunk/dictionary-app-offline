@@ -1,0 +1,151 @@
+* {
+    font-size: 15px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+body,
+html {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 10vh;
+    width: 100vw;
+    background-color: rgb(211, 211, 211);
+}
+
+.display-main {
+    margin-top: 20vh;
+    font-size: 40px;
+}
+
+.display-main input {
+    font-size: 20px;
+}
+
+#message {
+    height: 100px;
+    display: block;
+}
+
+.display-main h1 {
+    font-size: 40px;
+}
+
+.me {
+    width: 50%;
+    border-radius: 30%;
+}
+
+.nav-link {
+    margin-left: 2vw;
+    margin-right: 2vw;
+    color: black;
+    text-decoration: none;
+}
+
+@media (max-width:750px) {
+    .nav-link {
+        margin-left: 1vw;
+        margin-right: 1vw;
+        color: black;
+        text-decoration: none;
+    }
+}
+
+.footer {
+    background-color: darkslategray;
+    color: white;
+    position: fixed;
+    height: 9vh;
+    width: 100vw;
+    top: 91vh;
+}
+
+.footer h4 {
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+li a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer a {
+    font-size: 2rem;
+    color: white;
+}
+
+.footer a i {
+    font-size: 2rem;
+    color: white;
+}
+
+.active {
+    font-weight: 800;
+}
+
+.show {
+    border-radius: 50%;
+    width: 100px;
+}
+
+.fa-github:hover {
+    color: black
+}
+
+.fa-facebook:hover {
+    color: #0E8EF2;
+}
+
+.photo {
+    width: 50vw;
+}
+
+.right p {
+    font-size: 12px;
+}
+
+@media(min-width:768px) {
+    .left {
+        float: left;
+        text-align: left;
+        max-width: 19vw;
+    }
+    .right {
+        float: right;
+        max-width: 79vw;
+    }
+    .right p {
+        font-size: 20px;
+        text-align: center;
+    }
+    .photo {
+        width: 18vw;
+    }
+}
